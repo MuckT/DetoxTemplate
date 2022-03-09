@@ -48,6 +48,7 @@ export default function App() {
           Welcome to the Detox Template. Please add a screen with your example/issue below.
         </Text>
       {renderScreenButton('Example screen', Screens.ExampleScreen)}
+      {renderScreenButton('Biometry screen', Screens.BiometryScreen)}
     </View>
   );
 }
